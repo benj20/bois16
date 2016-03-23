@@ -102,11 +102,7 @@ $(function() {
 
 
 
-
-
-
-
-				
+	// Animation 				
 	function hauteur_fenetre()
 		{
 			if (window.innerHeight) return window.innerHeight  ;
@@ -173,7 +169,7 @@ $(function() {
 
 
 
-
+	// Active utilisation de google maps
 	$('#planContainer').click(function () {
 	    $('#planContainer iframe').css("pointer-events", "auto");
 	});
